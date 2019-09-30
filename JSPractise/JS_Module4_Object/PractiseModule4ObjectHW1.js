@@ -1,4 +1,5 @@
 "use strict";
+// DONE 
 // Задание 1
 // Напиши скрипт, который, для объекта user, последовательно:
 
@@ -19,8 +20,9 @@ user.premium = false;
 
 const keys = Object.keys(user);
 
-for (key of keys) {
-  console.log(user[key]);
+for(const key of keys) {
+  console.log(`value: `,user[key]);
 }
-
-
+console.log(keys);
+// console.log(user[mood]);
+// console.log(user[hobby]);
