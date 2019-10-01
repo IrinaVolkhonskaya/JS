@@ -1,5 +1,6 @@
 "use strict";
 
+// DONE!!!
 // Задание 3
 // Напиши функцию findBestEmployee(employees), которая принимает объект сотрудников и 
 // возвращает имя самого продуктивного (который выполнил больше всех задач). 
@@ -31,7 +32,7 @@ function findBestEmployee(employees) {
     for(let j = 0; j < entry[i].length; j++){
       if (entry[i][j] > max) {
         max = entry[i][j];
-        name = entry[i];
+        name = entry[i][0];
        }
      }
   }
