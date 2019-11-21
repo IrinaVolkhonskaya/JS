@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* DONE!!! Задание 3
 Напиши класс Storage, который будет создавать объекты для управления складом товаров. 
@@ -12,31 +12,30 @@ addItem(item) - получает новый товар и добавляет е�
 removeItem(item) - получет товар и, если он есть, удаляет его из текущих*/
 
 class Storage {
-    constructor (items){
-        this.items = items;
-    }
-    getItems(){
-        console.log(this.items);
-    }
-    addItem(item) {
-         if (this.items.includes(item) === false) {
-             this.items.push(item);
-         }
-    }
-    removeItem(item) {
-     for(let i=0; i<this.items.length; i++){
-         if(this.items[i] === item){
-             this.items.splice(i, 1);
-         }
-     }
-    }
+	constructor(items) {
+		this.items = items;
+	}
+	getItems() {
+		console.log(this.items);
+	}
+	addItem(item) {
+		if (this.items.includes(item) === false) {
+			this.items.push(item);
+		}
+	}
+	removeItem(item) {
+			 if (this.items.includes(item)===true){
+				 this.items.splice(item, 1);
+			}
+		// }
+	}
 }
 
 const storage = new Storage([
-  'Нанитоиды',
-  'Пролонгер',
-  'Железные жупи',
-  'Антигравитатор',
+	'Нанитоиды',
+	'Пролонгер',
+	'Железные жупи',
+	'Антигравитатор'
 ]);
 
 const items = storage.getItems();
