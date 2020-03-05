@@ -47,6 +47,7 @@ const timer = {
     if (this.isActive) {
       return;
     }
+    this.isActive = true;
     this.timerId = setInterval(() => {
       const newColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
       document.body.style.backgroundColor = newColor; // рандомный цвет
