@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mango",
+      "email": "mango@mail.com",
+      "group": "user"
+    },
+    {
+      "id": 2,
+      "name": "Poly",
+      "email": "poly@mail.com",
+      "group": "user"
+    },
+    {
+      "name": "Ajax",
+      "email": "newajax@mail.com",
+      "id": 3,
+      "group": "user"
+    },
+    {
+      "name": "Lux",
+      "email": "lux@mail.com",
+      "id": 4,
+      "group": "admin"
+    }
+  ]
+}
