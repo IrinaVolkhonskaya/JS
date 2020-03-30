@@ -1,0 +1,23 @@
+{
+  "name": "masonry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build rc/index.html"
+  },
+  "keywords": [],
+  "author": "Irina Volkhonskaya <irina.volhonskaya@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "imagesloaded": "^4.1.4",
+    "ma": "0.0.7",
+    "mak": "^1.0.0",
+    "masonry-layout": "^4.2.2",
+    "st": "^2.0.0"
+  }
+}
